@@ -17,8 +17,12 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative overflow-hidden">
-      <div className="absolute top-0 left-0 z-10">
-        <img src="/images/bg.png" alt="" />
+      <div className="absolute top-0 left-0 z-10 w-full h-full">
+        <img 
+          src="/images/client5n.png" 
+          alt="Karimi Waithaka - Developer" 
+          className="w-full h-full object-cover opacity-30 hero-background-image"
+        />
       </div>
 
       <div className="hero-layout">
@@ -51,7 +55,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
+              Hi, I’m karimi waithaka, a developer based in Nanyuki with a passion for
               code.
             </p>
 

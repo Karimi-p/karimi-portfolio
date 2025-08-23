@@ -49,12 +49,12 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="pyro App Interface" />
             </div>
             <div className="text-content">
               <h2>
                 On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                called pyro. Coming soon.....
               </h2>
               <p className="text-white-50 md:text-xl">
                 An app built with React Native, Expo, & TailwindCSS for a fast,
