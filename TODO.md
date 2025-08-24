@@ -3,36 +3,40 @@
 ## Completed:
 - ✅ Updated `src/constants/index.js` to include link properties for social media icons
 - ✅ Updated `src/sections/Footer.jsx` to make social media icons clickable with links
+- ✅ Updated social media URLs with actual profile links in `src/constants/index.js`
+- ✅ Removed placeholder comments from social media links
+- ✅ Fixed LinkedIn URL protocol (added https://)
 
 ## To Do:
-1. **Update Social Media URLs** in `src/constants/index.js`:
-   - Replace `https://instagram.com/yourusername` with your actual Instagram URL
-   - Replace `https://facebook.com/yourusername` with your actual Facebook URL  
-   - Replace `https://x.com/yourusername` with your actual X/Twitter URL
-   - Replace `https://linkedin.com/in/yourusername` with your actual LinkedIn URL
-
-2. **Test the functionality** by running the development server:
+1. **Test the functionality** by running the development server:
    ```bash
    npm run dev
    ```
 
 ## Instructions:
-1. Open `src/constants/index.js`
-2. Find the `socialImgs` array (around line 278)
-3. Replace the placeholder URLs with your actual social media profile links
-4. Save the file
-5. The footer social icons will now link to your actual social media pages
+1. The social media links are now properly configured with your actual profiles
+2. All placeholder comments have been removed
+3. LinkedIn URL has been fixed with proper https:// protocol
 
-## Example of what your updated links should look like:
+## Your updated social media links:
 ```javascript
 {
   name: "insta",
   imgPath: "/images/insta.png",
-  link: "https://instagram.com/your_actual_username", // Your real Instagram
+  link: "https://instagram.com/karimi_waithaka1",
 },
 {
   name: "fb", 
   imgPath: "/images/fb.png",
-  link: "https://facebook.com/your_actual_username", // Your real Facebook
+  link: "https://www.facebook.com/profile.php?id=100070052710135",
 },
-// ... etc
+{
+  name: "x",
+  imgPath: "/images/x.png",
+  link: "https://x.com/karim_waithaka",
+},
+{
+  name: "linkedin",
+  imgPath: "/images/linkedin.png",
+  link: "https://www.linkedin.com/in/karimi-waithaka-1b9b25252",
+},

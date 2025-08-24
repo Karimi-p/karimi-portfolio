@@ -147,6 +147,30 @@ const techStackIcons = [
 
 const expCards = [
   {
+    review: "Karimi is building iRock Media into a comprehensive digital marketing agency that will revolutionize how businesses approach digital presence and marketing strategies.",
+    imgPath: "/images/exp5.png", // Placeholder image path, update as needed
+    logoPath: "/images/logo5.png", // Placeholder logo path, update as needed
+    title: "Founder & CEO",
+    date: "2025 - Future",
+    responsibilities: [
+      "Establish and lead a comprehensive digital marketing agency offering photography and videography services.",
+      "Develop innovative digital marketing strategies for diverse client portfolios.",
+      "Build and manage a team of creative professionals to deliver exceptional digital solutions.",
+    ],
+  },
+  {
+    review: "Karimi's contributions to Fric Technologies Limited have been invaluable. His ability to bridge the gap between IT and other departments has significantly improved our workflow.",
+    imgPath: "/images/exp4.png", // Placeholder image path, update as needed
+    logoPath: "/images/exp4 (2).png", // Placeholder logo path, update as needed
+    title: "IT Liaison Officer",
+    date: "2024 - Present",
+    responsibilities: [
+      "Act as a liaison between IT and other departments to ensure smooth communication.",
+      "Provide technical support for network-related issues.",
+      "Assist in the implementation of IT solutions to improve efficiency.",
+    ],
+  },
+  {
     review: "karimi brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
@@ -248,22 +272,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
-    link: "https://instagram.com/karimi_waithaka1", // Replace with your Instagram URL
+    link: "https://instagram.com/karimi_waithaka1",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
-    link: "https://www.facebook.com/profile.php?id=100070052710135", // Replace with your Facebook URL
+    link: "https://www.facebook.com/profile.php?id=100070052710135",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
-    link: "https://x.com/karim_waithaka", // Replace with your X/Twitter URL
+    link: "https://x.com/karim_waithaka",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    link: "www.linkedin.com/in/karimi-waithaka-1b9b25252", // Replace with your LinkedIn URL
+    link: "https://www.linkedin.com/in/karimi-waithaka-1b9b25252",
   },
 ];
 
