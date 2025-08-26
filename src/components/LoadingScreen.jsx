@@ -14,6 +14,8 @@ const LoadingScreen = ({ onLoaded }) => {
 
   useEffect(() => {
     // Simulate loading progress
+    const totalMessages = messages.length;
+    const totalDuration = totalMessages * 2000; // Total time for all messages
     const interval = setInterval(() => {
       setProgress(prev => {
         if (prev >= 100) {
@@ -21,7 +23,7 @@ const LoadingScreen = ({ onLoaded }) => {
           setTimeout(() => onLoaded(), 500);
           return 100;
         }
-        return prev + 1;
+        return prev + (100 / (totalDuration / 30)); // Adjust progress based on total duration
       });
     }, 30);
 
@@ -43,7 +45,7 @@ const LoadingScreen = ({ onLoaded }) => {
           <div className="spinner-ring"></div>
           <div className="spinner-ring"></div>
           <div className="spinner-ring"></div>
-          <div className="spinner-core"></div>
+          <div className="极速赛车开奖结果历史记录 spinner-core"></div>
         </div>
         
         <div className="loading-text">

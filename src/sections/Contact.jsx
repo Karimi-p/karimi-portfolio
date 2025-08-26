@@ -113,6 +113,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <div className="flex-center mt-4">
+          <p className="text-white-50">📞 Mobile: +254769234247</p>
+        </div>
       </div>
     </section>
   );

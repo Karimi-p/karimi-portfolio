@@ -12,11 +12,17 @@ const RootComponent = () => {
     const preloadAssets = async () => {
       try {
         // Preload critical images
-        const criticalImages = [
-          '/images/bg.png',
-          '/images/person.png',
-          '/images/logo1.png'
-        ];
+const criticalImages = [
+  '/images/bg.png',
+  '/images/person.png',
+  '/images/logo1.png',
+  '/images/ideas.svg',
+  '/images/concepts.svg',
+  '/images/designs.svg',
+  '/images/code.svg',
+  '/images/menu.svg',
+  '/images/x.svg'
+];
 
         await Promise.all(
           criticalImages.map(src => {
@@ -29,8 +35,7 @@ const RootComponent = () => {
           })
         );
 
-        // Add a minimum loading time for better UX
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        // Remove the minimum loading time for better UX
         
         setIsLoading(false);
       } catch (error) {
